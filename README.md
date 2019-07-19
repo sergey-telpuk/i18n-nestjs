@@ -1,4 +1,5 @@
-Based on [ToonvanStrijp/nestjs-i18n](https://github.com/ToonvanStrijp/nestjs-i18n)
+Based on [ToonvanStrijp/nestjs-i18n](https://github.com/ToonvanStrijp/nestjs-i18n).
+
 This solution allows to grab the language of the current user (i.e., the client that is interacting with the API).
 
 The  `main.ts` could look like the following:
