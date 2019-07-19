@@ -11,11 +11,13 @@ fastifyAdapter.register(LP, {
 ```
 Using 
 ```javascript
-  @Inject('Ii18nResolver')
-  private readonly i18nResolver: Ii18nResolver
+    constructor(
+        @Inject('Ii18nResolver')
+        private readonly i18nResolver: Ii18nResolver,
+    ) {}
   
   ...
-  method(){
-      this.i18nResolver.translate('KEY');
-  }
+    method(){
+        this.i18nResolver.translate('KEY');
+    }
 ```
